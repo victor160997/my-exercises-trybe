@@ -1,0 +1,23 @@
+body{
+    margin-bottom: 100px;
+    background-color: rgb(235, 245, 255);
+}
+
+#dados-pessoais{
+    background-color: rgb(0, 253, 118);
+    border: solid black 1px;
+    padding-top: 15px;
+    border-radius: 3px;
+}
+
+#dados-profissionais{
+    background-color: rgb(0, 253, 118);
+    border: solid black 1px;
+    padding-top: 15px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+#buttons{
+    margin-top: 25px;
+}

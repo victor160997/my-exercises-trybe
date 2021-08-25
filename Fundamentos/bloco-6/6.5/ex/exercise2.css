@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: darkkhaki;
+    margin: 5%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 27px;
+}
+
+p, li{
+    font-size: 25px;
+}
+
+@media screen and (min-width:600px) and (max-width:850px){
+    body{
+        background-color: darksalmon;
+        margin: 10%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+    
+    h3{
+        font-size: 32px;
+    }
+    
+    p, li{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:850px){
+    body{
+        background-color: rgb(98, 77, 70);
+        margin: 15%;
+    }
+    h1{
+        font-size: 45px;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 37px;
+    }
+    
+    p, li{
+        font-size: 20px;
+    }
+}
+

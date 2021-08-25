@@ -1,0 +1,27 @@
+div:hover{
+    border: 1px solid #000;
+}
+
+#um{
+    color: rgb(20, 105, 48);
+    font-style: italic;
+}
+
+#dois{
+    color: rgb(105, 20, 20);
+}
+
+#tres{
+    color: rgb(26, 20, 105);
+    font-size: 50px;
+    font-style: italic;
+}
+
+#quatro{
+    color: rgb(255, 251, 0);
+}
+
+#cinco{
+    color: rgb(183, 7, 253);
+    font-style: italic;
+}

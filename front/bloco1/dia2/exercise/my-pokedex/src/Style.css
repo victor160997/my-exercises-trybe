@@ -1,0 +1,38 @@
+.pokemon {
+  background-color: rgb(194, 170, 93);
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  width: 350px;;
+  border: solid rgb(255, 255, 255) 4px;
+  border-radius: 15px;
+}
+
+.pokedesk {
+  background-color: rgb(18, 18, 83);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.poke {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokedesk :hover {
+  background-color:rgb(240, 189, 23);
+  font-weight: 900;
+  transition:cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  border: solid rgb(255, 255, 255) 4px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(194, 170, 93);
+}

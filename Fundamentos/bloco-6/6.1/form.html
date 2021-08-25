@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel='stylesheet' href ='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <header class='container mb-3 text-center'>
+        <h1 class="display-3"><em>Currículo</em></h1>
+    </header>
+
+    <hr>
+
+    <form action='' method='GET'>
+
+        <div id = 'dados-pessoais' class="container">
+            <p class='container mb-3 text-center lead'>Dados pessoais:</p>
+  
+            <div class="container mb-3">
+            <label class="form-label" for='input-name'>Nome:</label>
+                <input class="form-control" type='text' name='nome' id='input-name' maxlength='40' required>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-email'>E-mail:</label>
+                <input class="form-control" type='email' name='email' id='input-email' maxlength='50' required>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-cpf'>CPF:</label>
+                <input class="form-control" type='text' name='cpf' id='input-cpf' maxlength='11' required>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-end'>Endereço:</label>
+                <input class="form-control" type='text' name='end' id='input-end' maxlength='200' required>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-city'>Cidade:</label>
+                <input class="form-control" type='text' name='city' id='input-city' maxlength='28' required>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='est'>Estado:</label>
+                <select name='est' id='input-est' class="form-select" aria-label="Default select example">
+                
+                </select>    
+            </div>
+            
+            <div class='container'>
+            <label class="form-label mb-3" for='input-city'>Tipo:</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Casa</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Apartamento</label>
+              </div>
+            </div>
+        </div>
+
+        <div id = 'dados-profissionais' class="container">
+        
+            <p class='container mb-3 text-center lead'>Dados profissionais:</p>
+        
+            <div class="container mb-3">
+            <label class="form-label" for='input-resumo'>Resumo do currículo:</label>
+            <textarea name='resumo' id='input-resumo' maxlength='1000' class="form-control" aria-label="With textarea" required></textarea>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-cargo'>Cargo:</label>
+            <textarea name='cargo' id='input-cargo' maxlength='40' class="form-control" aria-label="With textarea" required></textarea>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='input-descri'>Descrição do cargo:</label>
+            <textarea name='descri' id='input-descri' maxlength='500' class="form-control" aria-label="With textarea" required></textarea>
+            </div>
+            
+            <div class="container mb-3">
+            <label class="form-label" for='data'>Data de início:    
+                <input class="form-control" type='date' id='data' name='data' required>
+            </label>
+            </div>
+
+        </div>    
+        
+
+        <div class="container mb-3 text-center" id='buttons'>
+        <input type="submit" id='botao-enviar' class="btn btn-primary active" aria-current="page">
+        <input type="reset" id='botao-reset' class="btn btn-primary active" aria-current="page">
+        </div>
+    </form>
+
+    <script src = 'script.js'></script>
+    
+</body>
+</html>
